@@ -4,8 +4,7 @@
     "genkit:start": "genkit start -- tsx --env-file=.env --watch src/index.ts",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "start": "node lib/index.js",
-    "deploy": "firebase deploy --only functions"
+    "start": "node lib/index.js"
   },
   "name": "functions",
   "engines": {
@@ -28,6 +27,5 @@
     "genkit-cli": "^1.11.0",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
-  },
-  "private": true
+  }
 }
